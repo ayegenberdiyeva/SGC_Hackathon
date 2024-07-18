@@ -6,8 +6,8 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1>QWERT</h1>
+      <div className='Heading'>
+        <h1>Women</h1>
       </div>
     </>
   )
