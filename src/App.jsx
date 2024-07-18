@@ -9,6 +9,9 @@ function App() {
       <div className='Heading'>
         <h1>Women</h1>
       </div>
+      <div>
+        <h1>lalala</h1>
+      </div>
     </>
   )
 }
