@@ -16,8 +16,8 @@
 body {
   margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--background-color);
@@ -56,6 +56,24 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+ .quick_links{
+  .quick_button{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  .quick_button:hover{
+    color: #E90074;
+  }
+ }
 
 .card {
   padding: 2em;

@@ -6,7 +6,27 @@ function App() {
 
   return (
     <>
-      <div className='Heading'>
+      <div className='first_part'>
+        <div className='head'>
+          <div className='quick_links'>
+          <button className='quick_button'>Project info</button>
+          </div>
+          <div className='quick_links'>
+          <button className='quick_button'>Big dates</button>
+          </div>
+          <div className='quick_links'>
+          <button className='quick_button'>Biography</button>
+          </div>
+          <div className='quick_links'>
+          <button className='quick_button'>Posts</button>
+          </div>
+          <div className='quick_links'>
+          <button className='quick_button'>Sources</button>
+          </div>
+          <div className='quick_links'>
+          <button className='quick_button'>Subscription</button>
+          </div>
+        </div>
         <h1>HerPath Empowerment Project</h1>
       </div>
     </>
