@@ -8,3 +8,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+
+// const scrollers = document.querySelectorAll(".scroller");
+
+// if (!window.matchMedia("prefers-reducted-motion: reduce").matches){
+//   addAnimation();
+// }
+
+// function addAnimation(){
+//   scrollers.forEach((scroller) => {
+//     scroller.setAttribute("data-animated", true)
+//   })
+// }

@@ -1,5 +1,5 @@
 .App {
-  text-align: end;
+  text-align: center;
 }
 
 .card {
@@ -25,8 +25,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-.quick_links{
-  background-color: transparent;
 }
