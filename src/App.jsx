@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className='Heading'>
-        <h1>Women</h1>
+        <h1>HerPath Empowerment Project</h1>
       </div>
     </>
   )
