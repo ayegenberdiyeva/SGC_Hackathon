@@ -50,8 +50,8 @@ function App() {
         </div>
       </div>
     </section>
-    {/* <section class='scroller-section'>
-      <div className='moving-tape'>
+    <section class='scroller-section'>
+      {/* <div className='moving-tape'>
       <ScrollingTape />
         <p className='adjective'>innovative</p>
         <img src={sprite1} alt='dog' className='moving-tape-sprite'/>
@@ -71,9 +71,17 @@ function App() {
         <p className='adjective'>determined</p>
         <img src={sprite4} alt='ribbon' className='moving-tape-sprite'/>
         <p className='adjective'>flexible</p>
+      </div> */}
+    </section>
+    <section id='about' className='about-section'>
+      <div className='about'>
+        <p className='key-word'>EmpowerPath</p>
+        <p className='sentence'>is a dedicated platform empowering young women through their higher education journeys.</p>
+        <p className='sentence'>Our goal is to create a supportive community where girls can navigate university and college applications with confidence.</p>
+        <p className='sentence'>Through shared experiences, advice, and connections, EmpowerHer fosters a space where every woman's voice is heard and valued.</p>
+        <p className='sentence'>Whether you’re seeking guidance on application processes, scholarship opportunities, or simply looking to connect with peers, EmpowerHer is here to support and uplift you every step of the way.</p>
       </div>
-    </section> */}
-    <section id='about' className='about-section'></section>
+    </section>
     <section id='big-dates' className='big-date-section'></section>
     <section id='biography' className='biography-section'></section>
     <section id='blog' className='blog-section'></section>

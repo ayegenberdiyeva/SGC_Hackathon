@@ -280,3 +280,32 @@ img{
     transform: translate(-100%);
   }
 } */
+
+.about-section{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  min-height: 1024px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background-color: #FFF078;
+  
+}
+
+.key-word{
+  font-weight: bolder;
+  color: #FF4191;
+
+}
+
+.key-word:hover{
+  color: #E90074;
+}
+
+.sentence{
+  font-size: 30px;
+  color: #E90074;
+}
